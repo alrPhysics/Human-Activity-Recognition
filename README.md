@@ -1,9 +1,9 @@
 ## Determine Activity Based on Data Collected From Smarthphone
-### Data Info Summary:
+### Data Info Summary
 All details concerning this dataset can be found [here](https://archive.ics.uci.edu/ml/datasets/human+activity+recognition+using+smartphones).
 * Data was collected using the embedded acclerometer and gyroscope of a Samsung Galaxy S II.
 * Contains 561 features.
-* Features are normalized between [-1,1]
+* Features are normalized between [-1,1].
 * Data was donwloaded from the UCI Repository (link above) and the given training and test sets were used.
 ### Processing Data
 * PCA was implemented to reduce the dimensionality of the data.
@@ -14,7 +14,7 @@ All details concerning this dataset can be found [here](https://archive.ics.uci.
 * Compared the performance of LinearDiscriminantAnalysis, LogisticRegression, MLPClassifier, and KNeighborsClassifier.
 * Visualized the confusion matrices using Seaborn's heatmap.
 * Attempted to optimize classifiers using GridSearchCV.
-### Results:
+### Results
 Top performers:
 * 10 PCs - MLPClassifier with an accuracy of 87.4%
 * 50 PCs - LogisticRegression with an accuracy of 92.6%

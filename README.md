@@ -16,6 +16,6 @@ All details concerning this dataset can be found [here](https://archive.ics.uci.
 * Attempted to optimize classifiers using GridSearchCV.
 ### Results
 Top performers:
-* 10 PCs - MLPClassifier with an accuracy of 87.4%
-* 50 PCs - LogisticRegression with an accuracy of 92.6%
+* 10 PCs - MLPClassifier with an accuracy of 87%
+* 50 PCs - LogisticRegression with an accuracy of 92%
 * 100 PCs - LogisticRegression with an accuracy of 95%

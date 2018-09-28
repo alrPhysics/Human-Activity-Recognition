@@ -7,7 +7,7 @@ All details concerning this dataset can be found [here](https://archive.ics.uci.
 * Data was donwloaded from the UCI Repository (link above) and the given training and test sets were used.
 ### Processing Data
 * PCA was implemented to reduce the dimensionality of the data.
-* The explained variance ration was plotted against the number of PCs in order to guide PC selection.  
+* The explained variance ratio was plotted against the number of PCs in order to guide PC selection.  
 * The first 10 PCs were visualized using Seaborn's pairplot in order to make predictions on classifier performance.
 * Classifiers were trained on 10, 50, and 100 PCs.
 ### Classification
